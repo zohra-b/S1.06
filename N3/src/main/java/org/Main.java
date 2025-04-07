@@ -2,6 +2,12 @@ package org;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+
+
+        Smartphone mySmartphone = new Smartphone();
+
+        Generic.firstGenericMethod(mySmartphone);
+        Generic.secondGenericMethod(mySmartphone);
+
     }
 }

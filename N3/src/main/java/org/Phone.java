@@ -1,7 +1,7 @@
 package org;
 
 public interface Phone {
-    static void call(){
+    void call(){
         System.out.println("Calling...");
     }
 }
