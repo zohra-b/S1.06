@@ -2,6 +2,8 @@ package org;
 
 public class Generic {
 
+    private Generic(){}
+
     public static <T extends Phone> void firstGenericMethod(T arg){
 
         System.out.println("Running my first generic method");
