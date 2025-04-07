@@ -6,6 +6,7 @@ public class Generic {
 
         System.out.println("Running my first generic method");
                 arg.call();
+                //arg.takePhotos();
 
     }
 
